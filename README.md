@@ -1,2 +1,2 @@
 # dotfiles
-My daily driver dotfiles
+My forever expanding rice dotfiles
