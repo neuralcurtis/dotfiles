@@ -1,0 +1,17 @@
+# wofi config - macOS Spotlight inspired
+
+width=40%
+height=500px
+location=center
+show=drun
+prompt=Search…
+allow_markup=true
+insensitive=true
+allow_images=true
+hide_scroll=true
+no_actions=true
+term=alacritty
+filter_rate=100
+dpi-aware=true
+always_parse_args=true
+
