@@ -1,0 +1,62 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: rgba(12, 12, 12, 0.6);
+}
+
+button {
+	border-radius: 16;
+	border-color: #384959;
+	text-decoration-color: #BDDDFC;
+	color: #FFFFFF;
+	background-color: #1c2b2f;
+	border-style: solid;
+	border-width: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15%;
+}
+
+button:focus, button:active, button:hover {
+	background-color: #FFFFFF;
+	color: #1d2021;
+	outline-style: none;
+	background-size: 25%;
+}
+
+#lock {
+    background-image: image(url("/home/ivan/Pictures/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+	margin: 20;
+}
+
+#logout {
+    background-image: image(url("/home/ivan/Pictures/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+	margin: 20;
+}
+
+#suspend {
+    background-image: image(url("/home/ivan/Pictures/icons/sleep.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+	margin: 20;
+	/* background: none;
+	border: none; */
+}
+
+#hibernate {
+    background-image: image(url("/home/ivan/Pictures/icons/disc.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+	margin: 20;
+}
+
+#shutdown {
+    background-image: image(url("/home/ivan/Pictures/icons/power.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+	margin: 20;
+}
+
+#reboot {
+    background-image: image(url("/home/ivan/Pictures/icons/restart.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+	margin: 20;
+	/* background: none;
+	border: none; */
+}
