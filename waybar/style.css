@@ -1,0 +1,61 @@
+* {
+  /*font-family: "0xProto Nerd Font Mono", sans-serif;*/
+  font-family: "Agave Nerd Font";
+  font-size: 20px;
+  color: #FFFFFF; /*#FB9FB8;*/
+}
+
+
+
+window#waybar {
+  background-color: rgba(30, 30, 30, 0.98);
+  border: none;
+  min-height: 18px;
+}
+
+#workspaces {
+	color: #1d2021;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  margin: 4px 2;
+  border-radius: 8px;
+  border: 2px solid #384959;
+  background-color: #1C2B2F;
+  /*color: rgba(30, 30, 30, 0.98);*/
+  color: #1d2021;
+}
+
+#workspaces button.active {
+	background-color: #1d2021;
+	color: #1d2021;
+}
+
+
+#custom-launch {
+	padding: 4 8px;
+	margin: 4px 2;
+	background-color: #1C2B2F;
+	border: 2px solid #384959;
+	color: #FFFFFF;
+	border-radius: 8px;
+}
+
+#custom-bypass_charge,
+#custom-logout,
+#custom-cava,
+#custom-term,
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+	padding: 0 8px;
+	margin: 4px 2;
+	background-color: #1C2B2F;
+	border: 2px solid #384959;
+	color: #FFFFFF;
+	border-radius: 8px;
+}
