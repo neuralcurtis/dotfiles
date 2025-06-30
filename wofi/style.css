@@ -1,0 +1,13 @@
+*{
+	font-family: "Agave Nerd Font";
+	background: rgba(30, 30, 30, 0.98);
+	color: #BDDDFC;
+}
+
+#window {
+	color: #BDDDFC;
+	border-color: #384959;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 8px;
+}
